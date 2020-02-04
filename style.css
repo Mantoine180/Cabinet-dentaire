@@ -1,7 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+
+
 nav ul{
     list-style: none;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -16,4 +23,71 @@ nav a{
     height:400px ;
     background-size:cover;
     background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.texte
+{
+    color: white;
+}
+
+.texte h1 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.soustexte
+{
+   text-align: center; 
+   font-size: 25px;
+}
+
+.content
+{
+    display: flex; 
+    justify-content:space-evenly; 
+}
+
+aside
+{
+    width: 25%;
+}
+
+.presentation
+{
+    width: 70%;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td
+{
+    border-bottom: 2px solid black;
+}
+
+.informations img
+{
+    display: block;
+    margin: 0 auto ;
+    width: 40%;
+}
+
+.informations p
+{
+    text-decoration: underline;
+    margin-top: 26px ;
+}
+
+aside .informations, aside .diponibilite
+{
+    box-shadow: 0 1px 5px rgba(0, 0, 0,0.15);
+    padding :8px;
+    border-radius: 8px;
+    margin-top: 16px;
 }
