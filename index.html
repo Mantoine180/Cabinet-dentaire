@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="https://kit.fontawesome.com/59b9fc1090.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -17,19 +19,34 @@
          <li><a href="#">Le cabinet</a></li> 
          <li><a href="#">Rendez-vous</a></li>  
          <li><a href="#">Contact</a></li> 
-         <li><a href="#">Identification</br>Connexion</a></li> 
+         <li><a href="#"><i class="fas fa-portrait"></i></a></li> 
         </ul>
     </nav>    
  </header>   
  <section class="banniere">
-  <div class="texte">
-      <h1>Cabinet dentaire du Dr.CLAVERIE Alain</h1>
-      <div class="soustexte">Chirugien Dentiste a l'Ormeau</div>
-  </div>
+
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide-1">
+                <div class="texte">
+                    <h1>Cabinet dentaire du Dr.CLAVERIE Alain</h1>
+                    <div class="soustexte">Chirugien Dentiste a l'Ormeau</div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-2"></div>
+            <div class="swiper-slide">Slide 3</div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
  </section>
  <div class="content">
  <section class="presentation">
     <p class=intro>Bienvenue sur le site du Cabinet Dentaire du Dr CLAVERIE Alain Chirurgien Dentiste</br> Ce site a pour but de prendre des rendez vous en ligne</p> 
+
 </section>
  <aside>
     <div class="diponibilite">
@@ -70,7 +87,7 @@
         </table>
     </div>
     <div class="informations">
-        <h2>Pratitien</h2>
+        <h2>Praticien</h2>
         <img src="https://via.placeholder.com/150"/>
         <strong><p class="formation">Formation:</p></strong>
     </div>
@@ -79,5 +96,6 @@
     <footer>
          <div class="cordonees_cabinet">Coordonées du cabinet</div>   
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
