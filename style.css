@@ -5,14 +5,21 @@ body{
 
 
 
-nav ul{
+nav ul
+{
     list-style: none;
     display:flex;
     justify-content: space-evenly;
-
+    margin-block-start: 10px;
+    margin-block-end: 10px;
 }
 
-nav a{
+.maison
+{
+    width:30%;
+}
+nav a
+{
     text-decoration: none;
     color: blue;
 }
@@ -87,7 +94,33 @@ th,td
 aside .informations, aside .diponibilite
 {
     box-shadow: 0 1px 5px rgba(0, 0, 0,0.15);
-    padding :8px;
+    padding-bottom:8px;
     border-radius: 8px;
     margin-top: 16px;
+}
+
+h2
+{
+    margin-block-start:0px;
+    margin-block-end: 2px;
+    text-align: center;
+    background-color: rgba(56, 121, 173, 0.616);
+    border-radius: 8px;
+    padding-right:32px;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+
+.diponibilite p
+{
+    margin-block-start:4px;
+    margin-block-end: 4px;
+}
+
+aside .horaires, aside .formation
+{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 8px;
+    text-decoration: underline;
 }
