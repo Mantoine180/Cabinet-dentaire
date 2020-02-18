@@ -54,7 +54,6 @@ nav a
 .slide-2
 {
  background-image:url("https://frenchdistrict.com/floride/wp-content/uploads/sites/2/2016/07/serge-papiernik-dentiste-esthetique-miami-03.jpg");
-
 }
 .banniere
 {
@@ -151,4 +150,23 @@ aside .horaires, aside .formation
     text-align: center;
     margin-bottom: 8px;
     text-decoration: underline;
+}
+.login
+{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right:0px;
+    top:51px;
+    z-index:4;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.login-link:hover .login
+{
+    visibility: visible;
+    background-color: rgb(56, 120, 173);
+    opacity: 1;
+    transition: 1s;
 }
